@@ -13,20 +13,20 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@domain.com
+title: CAPLA Sensor Kit
+email: nicwolf1@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The project page for the University of Arizona's College of Architecture,
+  Planning & Landscape Architecture's landscape sensing project.
 baseurl: "/capla-sensor-kit"
 url: "http://github.com/nicwolf"
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  nicwolf
 
 # Build settings
 markdown: kramdown
-theme: minima
+plugins:
+  - jekyll-include-cache
+remote_theme: "mmistakes/minimal-mistakes@4.18.1"
 gems:
   - jekyll-feed
 exclude:
